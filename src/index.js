@@ -1,21 +1,26 @@
-import React from 'react';
+import React,{useState} from 'react';
 import ReactDOM from 'react-dom/client';
 import './App.css';
+import App from './app'
+// import { socialIcon } from "react-social-icons";
 
 
-const root = ReactDOM.createRoot(document.getElementById('container'));
-  let button = ReactDOM.createRoot(document.getElementById('button'));
-  const profilePic = ReactDOM.createRoot(document.getElementById('profile'));
+const root = ReactDOM.createRoot(document.getElementById('root'));
+  // let button = ReactDOM.createRoot(document.getElementById('button'));
+  // const profilePic = ReactDOM.createRoot(document.getElementById('profile'));
+
   
-
+  
 root.render(
-    button
-    
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
 );
-profilePic.render(
-  
-)
+// profilePic.render(
+
+// )
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
 // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 
+// export default app()
