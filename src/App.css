@@ -25,7 +25,7 @@ a{
     background-color: rgba(86, 85, 85, 0.294);
     text-align: center;
     color: black;
-    margin-bottom: 1%;
+    margin-bottom: 2%;
     text-decoration: none;
 
 }
@@ -158,10 +158,10 @@ span{
     /* background-color: red; */
 }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     #footer{
         display: none;
-        background-color: red;
+        /* background-color: red; */
         visibility: hidden;
     }
     .icons{

@@ -27,14 +27,16 @@ function App() {
                 <div id="twitter">Goodness Kolapo</div>
                 <div id="slack"><i></i>superman</div>
                 <div id="button">
-                    <a href=""> <div class="button" id="twitterlink">goodnesskolapo</div></a>
+                    <a href="https://twitter.com/goodnesskolapo"> <div class="button" id="twitterlink">goodnesskolapo</div></a>
 
-                    <a href="#">   <div class="button" id="btn_zuri">Zuri Team</div>  </a>
-                    <a href="#">   <div class="button" id="books">Zuri Books</div>    </a>
-                    <a href="#">   <div class="button" id="book_python">Python Books</div>  </a>
-                    <a href="#">   <div class="button" id="pitch">Background Check for Coders</div> </a>
-                    <a href="#">   <div class="button" id="book_design">Design Books</div>  </a>
-                </div>``
+                    <a id="btn_zuri" href="https://training.zuri.team/">   <div class="button" >Zuri Team</div>  </a>
+                    <a id="books" href="http://books.zuri.team">   <div class="button" >
+                    <h2>zuri books</h2><p>Access Coding and Design Books.. </p></div>    </a>
+                    <a id="book_python" href="https://books.zuri.team/python-for-beginers?ref_id=superman">   <div class="button" >Python Books</div>  </a>
+                    <a id="pitch" href="https://background.zuri.team">   <div class="button" >Background Check for Coders</div> </a>
+                    <a  id="book_design" href="https://books.zuri.team/design-rules">   <div class="button">
+                    <h2>Design Books</h2><p>Access Design Books For FREE..</p></div>  </a>
+                </div>
                 
                 <div class="icons"><img src={slack} alt="" width="10%" class="ic"></img><img src={github} alt="" class="ic"></img></div>
                 <div id="footer"><p>zuri <span id="spa"></span> internship</p><img src={i4g} alt="" class="i4g"></img> </div>
