@@ -1,24 +1,26 @@
-import React, { useState } from "react";
+import React from "react";
 import './App.css'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faTruckDroplet } from '@fortawesome/free-solid-svg-icons'
 import github from './github.png'
 import slack from './slack.png'
 import i4g from './i4g.png'
+import { useState } from 'react';
 // import './github.png'
 
 
 function App() {
     const [file, setFile]= useState();
     function picchanger(e) {
-      setFile(URL.createObjectURL(e.target.files[0]))
+      setFile(URL.createObjectURL(e.target.files[0]));
     }
+
     return (
         <>
             <div id="container">
                 <div id="toggle"><p>...</p></div>
                 <div id="profilet">
-                    <input type="file" name="" onChange={picchanger} id="image" />
+                    <input type="file" name="" onChange={picchanger} useState={file} id="image" />
                     <label for="image">
                     <img id="profile" class="img" src={file} alt="" width="100%" />
                     </label>
