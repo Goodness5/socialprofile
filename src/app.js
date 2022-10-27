@@ -13,7 +13,9 @@ import { useState } from 'react';
 function App() {
     const [file, setFile]= useState();
     function picchanger(e) {
+        document.getElementById('profile').setAttribute('src', file)
       setFile(URL.createObjectURL(e.target.files[0]));
+      
     }
 
     return (
@@ -21,7 +23,7 @@ function App() {
             <div id="container">
                 <div id="toggle"><p>...</p></div>
                 <div id="profilet">
-                    <input type="file" name="" onChange={picchanger} useState={file} id="image" />
+                    <input type="file" name="" onChange={picchanger} id="image" />
                     <label for="image">
                     <img id="profile" class="img" src={profile} alt="" width="100%" />
                     </label>
