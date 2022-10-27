@@ -5,6 +5,7 @@ import './App.css'
 import github from './github.png'
 import slack from './slack.png'
 import i4g from './i4g.png'
+import profile from './profile.jpg'
 import { useState } from 'react';
 // import './github.png'
 
@@ -22,7 +23,7 @@ function App() {
                 <div id="profilet">
                     <input type="file" name="" onChange={picchanger} useState={file} id="image" />
                     <label for="image">
-                    <img id="profile" class="img" src={file} alt="" width="100%" />
+                    <img id="profile" class="img" src={profile} alt="" width="100%" />
                     </label>
                     
                 </div>
