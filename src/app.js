@@ -27,10 +27,10 @@ function App() {
                     </label>
                     
                 </div>
-                <div id="twitter">Goodness Kolapo</div>
-                <div id="slack"><i></i>superman</div>
+                <div id="slack">Goodness Kolapo</div>
+                {/* <div ><i></i>superman</div> */}
                 <div id="button">
-                    <a href="https://twitter.com/goodnesskolapo"> <div class="button" id="twitterlink">goodnesskolapo</div></a>
+                    <a href="https://twitter.com/goodnesskolapo" id="twitter"> <div class="button" id="twitterlink">goodnesskolapo</div></a>
 
                     <a id="btn_zuri" href="https://training.zuri.team/">   <div class="button" >Zuri Team</div>  </a>
                     <a id="books" href="http://books.zuri.team">   <div class="button" >
