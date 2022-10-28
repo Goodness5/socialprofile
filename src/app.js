@@ -25,22 +25,20 @@ function App() {
                 <div id="profilet">
                     <input type="file" name="" onChange={picchanger} id="image" />
                     <label for="image">
-                    <img id="profile" class="img" src={profile} alt="" width="100%" />
+                    <img id="profile__img" class="img" src={profile} alt="" width="100%" />
                     </label>
                     
                 </div>
-                <div id="slack">Goodness Kolapo</div>
-                {/* <div ><i></i>superman</div> */}
+                <div id="twitter">Goodness Kolapo</div>
+                <div id="slack">superman</div>
                 <div id="button">
-                    <a href="https://twitter.com/goodnesskolapo" id="twitter"> <div class="button" id="twitterlink">goodnesskolapo</div></a>
+                    <a href="https://twitter.com/goodnesskolapo" id="twitter"> <div class="button" id="twitterlink">Twitterlink</div></a>
 
-                    <a id="btn_zuri" href="https://training.zuri.team/">   <div class="button" >Zuri Team</div>  </a>
-                    <a id="books" href="http://books.zuri.team">   <div class="button" >
-                    <h2>zuri books</h2><p>Access Coding and Design Books.. </p></div>    </a>
-                    <a id="book_python" href="https://books.zuri.team/python-for-beginers?ref_id=superman">   <div class="button" >Python Books</div>  </a>
+                    <a id="btn__zuri" href="https://training.zuri.team/">   <div class="button" >Zuri Team</div>  </a>
+                    <a id="books" href="http://books.zuri.team">   <div class="button" >zuri books</div>    </a>
+                    <a id="book__python" href="https://books.zuri.team/python-for-beginers?ref_id=superman">   <div class="button" >Python Books</div>  </a>
                     <a id="pitch" href="https://background.zuri.team">   <div class="button" >Background Check for Coders</div> </a>
-                    <a  id="book_design" href="https://books.zuri.team/design-rules">   <div class="button">
-                    <h2>Design Books</h2><p>Access Design Books For FREE..</p></div>  </a>
+                    <a  id="book__design" href="https://books.zuri.team/design-rules">   <div class="button">Design Books</div>  </a>
                 </div>
                 
                 <div class="icons"><img src={slack} alt="" width="10%" class="ic"></img><img src={github} alt="" class="ic"></img></div>
