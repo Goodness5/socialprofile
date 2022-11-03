@@ -160,14 +160,7 @@ span{
 }
 }
 @media screen and (max-width: 500px) {
-    #footer{
-        display: none;
-        /* background-color: red; */
-        visibility: hidden;
-    }
-    .icons{
-        visibility: hidden;
-    }
+    
     .copy{
         visibility: hidden;
     }
@@ -175,19 +168,39 @@ span{
         margin-bottom: 0;
     }
 }
-
-/* .icons{
+.icons{
     display: flex;
     flex-direction: row;
-    width: 30%;
+    width: 8em;
     margin: 0 auto;
-    margin-bottom: 5%;
+    justify-content: center;
     /* background-color: red; */
-/* } */
+    justify-content: space-between;
+    margin-top: 5%;
+    /* align-items: center; */
+    /* text-align: center; */
+}
+
 .ic{
-    height: 4vh;
-    width: 4vh;
+    height: 7vh;
+    width: 7vh;
     margin: 0 auto;
+    /* padding-left: 6%; */
+    /* padding-right: 16%; */
+    /* justify-content: space-between; */
+    /* background-color: red; */
+}
+.ic1{
+    height: 7vh;
+    width: 7vh;
+    /* padding-right: 16px; */
+    margin-left: 1%;
+}
+.ic2{
+    height: 7vh;
+    width: 7vh;
+    margin-right: 1%;
+    /* padding-left: 16%; */
 }
 .copy{
     text-align: center;
@@ -211,7 +224,16 @@ span{
     /* position: absolute; */
     width: 15%;
 }
-
+@media screen and (max-width:400px) {
+    #footer{
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .i4g{
+        width: 60%;
+    }
+}
 #spa{
     display: inline-block;
     min-height: 1vh;
