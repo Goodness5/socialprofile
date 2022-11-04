@@ -21,7 +21,6 @@ function App() {
     }
 
     return (
-    <>
             <div id="container">
                 <div id="toggle"><p>...</p></div>
                 <div id="profilet">
@@ -41,7 +40,7 @@ function App() {
                     <a id="book__python" href="https://books.zuri.team/python-for-beginers?ref_id=superman">   <div class="button" >Python Books</div>  </a>
                     <a id="pitch" href="https://background.zuri.team">   <div class="button" >Background Check for Coders</div> </a>
                     <a  id="book__design" href="https://books.zuri.team/design-rules">   <div class="button">Design Books</div>  </a>
-                    {/* <a  id="book__design" href="/contact">   <div class="button">Contact Me</div>  </a> */}
+                    <a  id="" href="">   <div class="button">Contact Me</div>  </a>
                 </div>
                 
                 <div class="icons"><img src={slack} alt="" width="10%" class="ic1"></img><img src={github} alt="" class="ic2"></img></div>
@@ -49,7 +48,7 @@ function App() {
                 <div class="copy">HNG internship 9 Frontend Task</div>
 
             </div>
-            </>
+            
         
 
 
@@ -58,4 +57,4 @@ function App() {
 
 
 
-export default App
+export default App;

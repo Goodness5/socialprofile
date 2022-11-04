@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './App.css';
 import App from './app.js'
-// import contact from  './contact';
+import Contact from  './contact';
 // import { socialIcon } from "react-social-icons";
 // import { Router} from 'react-router'
 
@@ -16,7 +16,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
   
 root.render(
     <React.StrictMode>
-      <App />
+      {/* <App /> */}
+      <Contact />
     </React.StrictMode>
 );
 // profilePic.render(
