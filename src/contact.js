@@ -13,17 +13,21 @@ function Contact() {
 
             <div class="form">
                 <form>
-                    <label for="first_name">First name</label>
+                    <label for="last_name">First name</label>
                     <input id="first_name" type="text" placeholder="Enter your first name"></input>
                     <label for="last_name">Last name</label>
                     <input id="last_name" type="text" placeholder="Enter your last name"></input>
                     <label for="email">Email</label>
                     <input id="email" type="mail" placeholder="yourname@example.com"></input>
-                    <label for="message">Email</label>
-                    <textarea id="message"></textarea>
-                    <label for="check">you agree to providing your data to Goodness Kolapo who may contact you</label>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" placeholder="Send me a message and i'll reply as soon as possible"></textarea>
+                    
+                    <div class="check">
+                    <label for="check" class="msg">you agree to providing your data to Goodness Kolapo who may contact you</label>
                     <input type="checkbox" id="check"></input>
-                    <button type="submit" id="btn__submit"></button>
+                    </div>
+                    <button type="submit" id="btn__submit">Send message</button>
                 </form>
             </div>
 </div>
