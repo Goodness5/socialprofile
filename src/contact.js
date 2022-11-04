@@ -2,9 +2,10 @@ import React from "react";
 import './contact.css'
 import i4g from './i4g.png'
 // import './App.css'
-// import { Router, Route} from 'react-router'
+
 
 function Contact() {
+    
     return (
 <div>
             <div class="top">
@@ -43,6 +44,7 @@ function Contact() {
             
 </div>
     )
+    
 }
 
 export default Contact;

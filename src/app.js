@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import './App.css'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 // import { faTruckDroplet } from '@fortawesome/free-solid-svg-icons'
@@ -6,25 +6,18 @@ import github from './github.png'
 import slack from './slack.png'
 import i4g from './i4g.png'
 import profile from './profile.jpg'
-// import { useState } from 'react';
-// import contact from './contact';
-// import './github.png'
+import { Router, Route, Routes} from 'react-router'
+import Contact from "./contact";
 
 
 
 function App() {
-    const [file, setFile] = useState ;
-    function picchanger(e) {
-        document.getElementById('profile').setAttribute('src', file)
-      setFile(URL.createObjectURL(e.target.files[0]));
-      
-    }
-
+    // <Router>
     return (
             <div id="container">
                 <div id="toggle"><p>...</p></div>
                 <div id="profilet">
-                    <input type="file" onChange={picchanger} name=""  id="image" />
+                    <input type="file" name=""  id="image" />
                     <label for="image">
                     <img id="profile__img" class="img" src={profile} alt="" width="100%" />
                     </label>
@@ -40,7 +33,7 @@ function App() {
                     <a id="book__python" href="https://books.zuri.team/python-for-beginers?ref_id=superman">   <div class="button" >Python Books</div>  </a>
                     <a id="pitch" href="https://background.zuri.team">   <div class="button" >Background Check for Coders</div> </a>
                     <a  id="book__design" href="https://books.zuri.team/design-rules">   <div class="button">Design Books</div>  </a>
-                    <a  id="" href="">   <div class="button">Contact Me</div>  </a>
+                    <a  id="contact" href="/contact">   <div class="button">Contact Me</div>  </a>
                 </div>
                 
                 <div class="icons"><img src={slack} alt="" width="10%" class="ic1"></img><img src={github} alt="" class="ic2"></img></div>
@@ -48,13 +41,17 @@ function App() {
                 <div class="copy">HNG internship 9 Frontend Task</div>
 
             </div>
-            
-        
+     
 
 
     )
+    {/* <Routes>
+    <Route path="contact" element={<Contact/>}></Route>
+            
+    </Routes>
+    </Router> */}
     }
 
 
 
-export default App;
+    export default App;

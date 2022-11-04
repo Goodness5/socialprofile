@@ -236,7 +236,7 @@ span{
 }
 @media screen and (max-width:300px) {
     .i4g{
-        background-color: red;
+        /* background-color: red; */
         width: 20%;
     }
     #spa{
