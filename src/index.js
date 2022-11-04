@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './App.css';
-import App from './app.js'
+// import './App.css';
+// import App from './app.js'
 import Contact from  './contact';
 // import { socialIcon } from "react-social-icons";
 // import { Router} from 'react-router'

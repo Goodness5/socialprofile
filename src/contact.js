@@ -1,5 +1,6 @@
 import React from "react";
 import './contact.css'
+import i4g from './i4g.png'
 // import { Router, Route} from 'react-router'
 
 function Contact() {
@@ -29,6 +30,9 @@ function Contact() {
                     </div>
                     <button type="submit" id="btn__submit">Send message</button>
                 </form>
+
+                <div id="footer"><p>zuri <span id="spa"></span> internship</p><img src={i4g} alt="" class="i4g"></img> </div>
+                <div class="copy">HNG internship 9 Frontend Task</div>
             </div>
 </div>
     )
