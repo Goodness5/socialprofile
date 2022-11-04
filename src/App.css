@@ -231,6 +231,21 @@ span{
     }
     .i4g{
         width: 60%;
+        
+    }
+}
+@media screen and (max-width:300px) {
+    .i4g{
+        background-color: red;
+        width: 20%;
+    }
+    #spa{
+        display: inline-block;
+        min-height: 1vh;
+        width: 1vh;
+        border-radius: 50%;
+        background-color: red;
+        /* z-index: 2; */
     }
 }
 #spa{
