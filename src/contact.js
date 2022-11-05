@@ -43,8 +43,9 @@ function Contact () {
                     <button type="submit" id="btn__submit" >Send message</button>
                 </form>
                 </div>
-                <div id="footer"><p className="zuri">zuri <span id="spa"></span> internship</p><img src={i4g} alt="" className="i4g"></img> </div>
+                <div id="footer"><p className="zuri">zuri <span id="spa"></span> internship</p>
                 <div className="copy">HNG internship 9 Frontend Task</div>
+                <img src={i4g} alt="" className="i4g"></img> </div>
             
 </div>
     )

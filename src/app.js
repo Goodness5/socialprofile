@@ -53,8 +53,8 @@ function App() {
                 
                 <div className="icons"><img src={slack} alt="" width="10%" className="ic1"></img><a href="https://github.com/goodness5"><img src={github} alt="" className="ic2"></img></a></div>
                 <div id="footer"><p>zuri <span id="spa"></span> internship</p>
-                <img src={i4g} alt="" className="i4g"></img> 
                 <div className="copy">HNG internship 9 Frontend Task</div>
+                <img src={i4g} alt="" className="i4g"></img> 
                 </div>
         </div>
         </div>}/>
