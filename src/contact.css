@@ -166,6 +166,7 @@ textarea{
     width: 5em;
 }
 .copy{
+
     text-align: left;
     color: rgba(15, 15, 15, 0.872);
     margin-top: 2%;
@@ -308,14 +309,14 @@ textarea{
     }
     #check{
         width: 3vh;
-        /* padding-top: 3vh; */
         margin-top: 0;
+        
     }
     textarea{
         height: 30vh;
     }
     .msg{
-        margin-top: 1%;
+        margin-top: 1.5%;
         /* background-color: red; */
         /* margin-bottom: 2%; */
         margin-left: 1%;
