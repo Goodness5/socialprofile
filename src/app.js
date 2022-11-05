@@ -45,7 +45,7 @@ function App() {
                     <a id="btn__zuri" href="https://training.zuri.team/">   <div className="button" >Zuri Team</div>  </a>
                     <a id="books" href="http://books.zuri.team">   <div className="button" >zuri books</div>    </a>
                     <a id="book__python" href="https://books.zuri.team/python-htmlFor-beginers?ref_id=superman">   <div className="button" >Python Books</div>  </a>
-                    <a id="pitch" href="https://background.zuri.team">   <div className="button" >Background Check htmlFor Coders</div> </a>
+                    <a id="pitch" href="https://background.zuri.team">   <div className="button" >Background Check For Coders</div> </a>
                     <a  id="book__design" href="https://books.zuri.team/design-rules">   <div className="button">Design Books</div>  </a>
                     <a  id="contact" href='/contact'>   <div className="button">Contact Me</div>  </a>
                     
