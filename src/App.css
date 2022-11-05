@@ -47,8 +47,8 @@ img{
 #toggle{
    /* background-color: red; */
    display: flex;
-   width: 9vh;
-   height: 9vh;
+   width: 4vh;
+   height: 4vh;
    border-width: 1px;
    right: 2%;
    border-style: dashed;
