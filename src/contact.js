@@ -8,7 +8,7 @@ import i4g from './i4g.png'
 function Contact () {
         
         return (
-<div>
+<div className="cont">
             <div className="top">
                 <h1>Contact Me</h1>
                 <p>Hi there, contact me to ask me about anything you have in mind</p>
@@ -37,8 +37,8 @@ function Contact () {
                     <textarea id="message" placeholder="Send me a message and i'll reply as soon as possible"></textarea>
                     
                     <div className="check">
-                    <label htmlFor="check" className="msg">you agree to providing your data to Goodness Kolapo who may contact you</label>
                     <input type="checkbox" id="check"></input>
+                    <label htmlFor="check" className="msg">you agree to providing your data to Goodness Kolapo who may contact you</label>
                     </div>
                     <button type="submit" id="btn__submit" >Send message</button>
                 </form>
