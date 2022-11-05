@@ -8,6 +8,7 @@ import i4g from './i4g.png'
 import profile from './profile.jpg'
 import { Route, Routes, BrowserRouter} from 'react-router-dom'
 import Contact from "./contact";
+import toggle from "./toggle.png"
 // import { Link } from "react-router-dom"
 
 
@@ -28,7 +29,7 @@ function App() {
         <Route path="/contact" element={ <Contact/> } />
         <Route path='/' element={<div>
             <div id="container">
-                <div id="toggle"><p>...</p></div>
+                <div id="toggle"><img src={toggle} alt="..."></img></div>
                 <div id="profilet">
                     <input type="file" name=""  id="image" />
                     <label htmlFor="image">
@@ -51,8 +52,10 @@ function App() {
                 </div>
                 
                 <div className="icons"><img src={slack} alt="" width="10%" className="ic1"></img><a href="https://github.com/goodness5"><img src={github} alt="" className="ic2"></img></a></div>
-                <div id="footer"><p>zuri <span id="spa"></span> internship</p><img src={i4g} alt="" className="i4g"></img> </div>
+                <div id="footer"><p>zuri <span id="spa"></span> internship</p>
+                <img src={i4g} alt="" className="i4g"></img> 
                 <div className="copy">HNG internship 9 Frontend Task</div>
+                </div>
         </div>
         </div>}/>
       </Routes>

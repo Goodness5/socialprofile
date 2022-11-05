@@ -47,18 +47,17 @@ img{
 #toggle{
    /* background-color: red; */
    display: flex;
-   align-items: center;
-   text-align: center;
-   justify-content: center;
-   width: 4vh;
-   height: 4vh;
-   border-style: dashed;
+   width: 9vh;
+   height: 9vh;
    border-width: 1px;
-   right: 0;
+   right: 2%;
+   border-style: dashed;
    border-color: rgba(128, 128, 128, 0.531);
    border-radius: 50%;
    position: absolute;
    color: black !important;
+   z-index: 1;
+   overflow: hidden;
 }
 input[type='file']{
     display: none;
@@ -125,9 +124,6 @@ span{
     display: none;
 }
 @media screen and (min-width:800px) {
-  #toggle{
-    display: none;
-  }
   #profile__img{
     width: 40vh;
     height: 40vh;
@@ -158,6 +154,36 @@ span{
     justify-content: center;
     /* background-color: red; */
 }
+}
+@media screen and (min-width: 400px) {
+    #toggle>img{
+        content:url("./share.png");
+        overflow: hidden;
+        border-style: none;
+        border-radius: 50%;
+        border-width: 1px;
+        width: 100%;
+        height: 9vh;
+        border-color: inherit;
+    }
+    #toggle{
+        border-style: none;
+    }
+    .i4g{
+        margin-right: 1%;
+        right: 2%;
+        position: absolute;
+        width: 15%;
+        /* margin-bottom: 5%; */
+    }
+    #footer>p{
+        margin-left: 1%;
+        left: 1%;
+        position: absolute;
+        width: 15%;
+        margin-bottom: 0%;
+        padding-bottom: 0;
+    }
 }
 @media screen and (max-width: 500px) {
     
@@ -201,6 +227,8 @@ span{
     /* padding-left: 16%; */
 }
 .copy{
+    margin-bottom: 0;
+    margin: 0 auto;
     text-align: center;
     color: rgba(128, 128, 128, 0.729);
     font-family: Arial, Helvetica, sans-serif;
@@ -212,22 +240,18 @@ span{
     flex-direction: row;
     width: 100%;
     text-transform: uppercase;
-    /* background-color: yellow; */
+    background-color: yellow;
     justify-content: space-between;
+    /* text-align: left; */
 
 }
-.i4g{
-    margin-right: 1%;
-    float: right;
-    /* position: absolute; */
-    width: 15%;
-    margin-bottom: 5%;
-}
+
 @media screen and (max-width:400px) {
     #footer{
         /* background-color: red; */
         display: flex;
         flex-direction: column;
+        margin-bottom: 0;
     }
     .i4g{
         width: 60%;
