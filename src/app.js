@@ -6,7 +6,7 @@ import github from './github.png'
 import slack from './slack.png'
 import i4g from './i4g.png'
 import profile from './profile.jpg'
-import { Router, Route, Routes} from 'react-router'
+import { Route, Routes, useNavigate} from 'react-router-dom'
 import Contact from "./contact";
 import { Link } from "react-router-dom"
 
@@ -14,6 +14,11 @@ import { Link } from "react-router-dom"
 
 function App() {
     
+    const navigate = useNavigate();
+
+    const navigateToContact = () => {
+      navigate('/contact', {replace: true})
+    }
     
     return (
             <div id="container">
@@ -35,7 +40,7 @@ function App() {
                     <a id="book__python" href="https://books.zuri.team/python-for-beginers?ref_id=superman">   <div class="button" >Python Books</div>  </a>
                     <a id="pitch" href="https://background.zuri.team">   <div class="button" >Background Check for Coders</div> </a>
                     <a  id="book__design" href="https://books.zuri.team/design-rules">   <div class="button">Design Books</div>  </a>
-                    <Link  id="contact" to="Contact/">   <div class="button">Contact Me</div>  </Link>
+                    <Link  id="contact" onClick={navigateToContact}>   <div class="button">Contact Me</div>  </Link>
                     
                 </div>
                 
@@ -45,17 +50,15 @@ function App() {
 
             </div>
      
-
-
-    )
-      
+     )
     }
-                    <Router>
-
-    <Routes>
+<Routes>
         <Route path="contact" element={ <Contact/> } />
       </Routes>
-      </Router>
+     
 
+
+    
+     
 
     export default App;
