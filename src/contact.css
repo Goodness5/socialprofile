@@ -302,14 +302,21 @@ textarea{
         margin-top: 0%;
         width: 90%;
         margin-bottom: 3%;
+        margin: 0 auto;
     }
     #check{
-        width: 3em;
+        width: 3vh;
         /* padding-top: 3vh; */
         margin-top: 0;
     }
     textarea{
         height: 30vh;
+    }
+    .msg{
+        margin-top: 1%;
+        /* background-color: red; */
+        /* margin-bottom: 2%; */
+        margin-left: 1%;
     }
 }
 
