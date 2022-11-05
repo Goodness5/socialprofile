@@ -333,3 +333,7 @@ textarea{
     
     width: 100%;
 }
+
+.copy{
+     text-align:left !important;
+}
