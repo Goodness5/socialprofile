@@ -336,4 +336,5 @@ textarea{
 
 .copy{
      text-align:left !important;
+     float: left;
 }
