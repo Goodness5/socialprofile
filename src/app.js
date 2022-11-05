@@ -8,11 +8,13 @@ import i4g from './i4g.png'
 import profile from './profile.jpg'
 import { Router, Route, Routes} from 'react-router'
 import Contact from "./contact";
+import { Link } from "react-router-dom"
 
 
 
 function App() {
-    // <Router>
+    
+    
     return (
             <div id="container">
                 <div id="toggle"><p>...</p></div>
@@ -33,7 +35,8 @@ function App() {
                     <a id="book__python" href="https://books.zuri.team/python-for-beginers?ref_id=superman">   <div class="button" >Python Books</div>  </a>
                     <a id="pitch" href="https://background.zuri.team">   <div class="button" >Background Check for Coders</div> </a>
                     <a  id="book__design" href="https://books.zuri.team/design-rules">   <div class="button">Design Books</div>  </a>
-                    <a  id="contact" href="/contact">   <div class="button">Contact Me</div>  </a>
+                    <Link  id="contact" to="Contact/">   <div class="button">Contact Me</div>  </Link>
+                    
                 </div>
                 
                 <div class="icons"><img src={slack} alt="" width="10%" class="ic1"></img><img src={github} alt="" class="ic2"></img></div>
@@ -45,13 +48,14 @@ function App() {
 
 
     )
-    {/* <Routes>
-    <Route path="contact" element={<Contact/>}></Route>
-            
-    </Routes>
-    </Router> */}
+      
     }
+                    <Router>
 
+    <Routes>
+        <Route path="contact" element={ <Contact/> } />
+      </Routes>
+      </Router>
 
 
     export default App;

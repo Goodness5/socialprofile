@@ -2,11 +2,12 @@ import React from "react";
 import './contact.css'
 import i4g from './i4g.png'
 // import './App.css'
+// import validateForm from './formErrors'
 
 
-function Contact() {
-    
-    return (
+function Contact () {
+        
+        return (
 <div>
             <div class="top">
                 <h1>Contact Me</h1>
@@ -17,6 +18,7 @@ function Contact() {
             <div class="form">
                 <form>
                 <div class="f1">
+                {/* <FormErrors formErrors={this.state.formErrors} /> */}
                 <div class="firstname">
                     <label for="last_name">First name</label>
                     <input id="first_name" type="text" placeholder="Enter your first name"></input>
@@ -26,9 +28,11 @@ function Contact() {
                     <input id="last_name" type="text" placeholder="Enter your last name"></input>
                     </div>
                     </div>
+                    {/* <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}></div> */}
                     <label for="email">Email</label>
                     <input id="email" type="mail" placeholder="yourname@example.com"></input>
                     
+                    {/* <div className={`form-group ${this.errorClass(this.state.formErrors.message)}`}></div> */}
                     <label for="message">Message</label>
                     <textarea id="message" placeholder="Send me a message and i'll reply as soon as possible"></textarea>
                     
@@ -36,7 +40,7 @@ function Contact() {
                     <label for="check" class="msg">you agree to providing your data to Goodness Kolapo who may contact you</label>
                     <input type="checkbox" id="check"></input>
                     </div>
-                    <button type="submit" id="btn__submit">Send message</button>
+                    <button type="submit" id="btn__submit" >Send message</button>
                 </form>
                 </div>
                 <div id="footer"><p class="zuri">zuri <span id="spa"></span> internship</p><img src={i4g} alt="" class="i4g"></img> </div>

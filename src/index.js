@@ -2,23 +2,28 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 // import './App.css';
 import App from './app.js'
-// import Contact from  './contact';
-// import { socialIcon } from "react-social-icons";
-// import { Router} from 'react-router'
+import Contact from './contact.js';
+import { BrowserRouter } from "react-router-dom";
+
+// import { Router, Routes, Route} from 'react-router'
 
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-  // let button = ReactDOM.createRoot(document.getElementById('button'));
-  // const profilePic = ReactDOM.createRoot(document.getElementById('profile'));
 
+//  <Router>
+// <Routes>
+//     <Route path="contact" element={<Contact/>}></Route>
+            
+//     </Routes>
+//     </Router> 
   
   
 root.render(
-    <React.StrictMode>
-      {/* <App /> */}
+    <BrowserRouter>
       <App />
-    </React.StrictMode>
+      {/* <Contact /> */}
+    </BrowserRouter>
 );
 // profilePic.render(
 
