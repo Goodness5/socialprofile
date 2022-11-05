@@ -16,9 +16,10 @@
     display: flex;
     flex-direction: column;
     color: rgba(79, 78, 78, 0.924);
-    line-height: 1em;
+    /* line-height: 1em; */
     margin-bottom: 7%;
     margin-left: 2%;
+    margin: 0 auto;
 }
 html, body{
     margin: 0;
