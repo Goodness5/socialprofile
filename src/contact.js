@@ -9,42 +9,42 @@ function Contact () {
         
         return (
 <div>
-            <div class="top">
+            <div className="top">
                 <h1>Contact Me</h1>
                 <p>Hi there, contact me to ask me about anything you have in mind</p>
             </div>
 
 
-            <div class="form">
+            <div className="form">
                 <form>
-                <div class="f1">
+                <div className="f1">
                 {/* <FormErrors formErrors={this.state.formErrors} /> */}
-                <div class="firstname">
-                    <label for="last_name">First name</label>
+                <div className="firstname">
+                    <label htmlFor="last_name">First name</label>
                     <input id="first_name" type="text" placeholder="Enter your first name"></input>
                     </div>
-                    <div class="lastname">
-                    <label for="last_name" class="lab">Last name</label>
+                    <div className="lastname">
+                    <label htmlFor="last_name" className="lab">Last name</label>
                     <input id="last_name" type="text" placeholder="Enter your last name"></input>
                     </div>
                     </div>
                     {/* <div className={`form-group ${this.errorClass(this.state.formErrors.email)}`}></div> */}
-                    <label for="email">Email</label>
+                    <label htmlFor="email">Email</label>
                     <input id="email" type="mail" placeholder="yourname@example.com"></input>
                     
                     {/* <div className={`form-group ${this.errorClass(this.state.formErrors.message)}`}></div> */}
-                    <label for="message">Message</label>
+                    <label htmlFor="message">Message</label>
                     <textarea id="message" placeholder="Send me a message and i'll reply as soon as possible"></textarea>
                     
-                    <div class="check">
-                    <label for="check" class="msg">you agree to providing your data to Goodness Kolapo who may contact you</label>
+                    <div className="check">
+                    <label htmlFor="check" className="msg">you agree to providing your data to Goodness Kolapo who may contact you</label>
                     <input type="checkbox" id="check"></input>
                     </div>
                     <button type="submit" id="btn__submit" >Send message</button>
                 </form>
                 </div>
-                <div id="footer"><p class="zuri">zuri <span id="spa"></span> internship</p><img src={i4g} alt="" class="i4g"></img> </div>
-                <div class="copy">HNG internship 9 Frontend Task</div>
+                <div id="footer"><p className="zuri">zuri <span id="spa"></span> internship</p><img src={i4g} alt="" className="i4g"></img> </div>
+                <div className="copy">HNG internship 9 Frontend Task</div>
             
 </div>
     )

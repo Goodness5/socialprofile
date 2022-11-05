@@ -3,27 +3,26 @@ import ReactDOM from 'react-dom/client';
 // import './App.css';
 import App from './app.js'
 // import Contact from './contact.js';
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 
 // import { Router, Routes, Route} from 'react-router'
 
 
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
-//  <Router>
-// <Routes>
-//     <Route path="contact" element={<Contact/>}></Route>
+
+ /* <Router>
+ <Routes>
+     <Route path="/contact" element={<Contact/>}></Route>
+     <Route path="/" element={<App/>}></Route>
             
-//     </Routes>
-//     </Router> 
-  
+     </Routes>
+     </Router>  */
+     
   
 root.render(
-    <BrowserRouter>
       <App />
-      {/* <Contact /> */}
-    </BrowserRouter>
+      
 );
 // profilePic.render(
 
